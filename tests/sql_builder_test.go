@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/ahadiwasti/gorm"
+	"github.com/ahadiwasti/gorm/clause"
+	. "github.com/ahadiwasti/gorm/utils/tests"
 )
 
 func TestRow(t *testing.T) {

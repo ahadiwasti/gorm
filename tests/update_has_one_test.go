@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/ahadiwasti/gorm"
+	. "github.com/ahadiwasti/gorm/utils/tests"
 )
 
 func TestUpdateHasOne(t *testing.T) {

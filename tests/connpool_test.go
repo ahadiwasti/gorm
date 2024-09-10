@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/ahadiwasti/gorm"
+	. "github.com/ahadiwasti/gorm/utils/tests"
 )
 
 type wrapperTx struct {

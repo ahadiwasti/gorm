@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gorm.io/gorm"
-	. "gorm.io/gorm/utils/tests"
+	"github.com/ahadiwasti/gorm"
+	. "github.com/ahadiwasti/gorm/utils/tests"
 )
 
 func TestJoins(t *testing.T) {

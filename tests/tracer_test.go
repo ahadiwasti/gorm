@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"gorm.io/gorm/logger"
+	"github.com/ahadiwasti/gorm/logger"
 )
 
 type Tracer struct {

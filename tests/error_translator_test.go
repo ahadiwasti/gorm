@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"gorm.io/gorm"
-	"gorm.io/gorm/utils/tests"
+	"github.com/ahadiwasti/gorm"
+	"github.com/ahadiwasti/gorm/utils/tests"
 )
 
 func TestDialectorWithErrorTranslatorSupport(t *testing.T) {

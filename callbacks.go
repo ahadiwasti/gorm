@@ -8,8 +8,8 @@ import (
 	"sort"
 	"time"
 
-	"gorm.io/gorm/schema"
-	"gorm.io/gorm/utils"
+	"github.com/ahadiwasti/gorm/schema"
+	"github.com/ahadiwasti/gorm/utils"
 )
 
 func initializeCallbacks(db *DB) *callbacks {
